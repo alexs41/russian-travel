@@ -1,0 +1,15 @@
+.cover__overlay {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    height: 100%; /* Высота максимальна */
+    left: 0; /* Нулевой отступ слева */
+    top: 0; /* Нулевой отступ сверху */
+    width: 100%; /* Ширина максимальна */
+    z-index: 1;
+    transition: opacity .5s;
+}
+
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+}

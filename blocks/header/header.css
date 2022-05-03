@@ -1,0 +1,32 @@
+.header {
+    width: 92.5%;
+    max-width: 1184px;
+    max-height: 52px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+    .header{
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    /* стили для планшета */
+    .header{
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* стили для широкого смартфона */
+    .header {
+        
+    }
+}

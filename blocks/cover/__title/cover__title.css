@@ -1,0 +1,25 @@
+.cover__title {
+    text-align: center;
+    margin: 0 auto;
+    width: 73%;
+    z-index: 2;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.06;
+    
+}
+
+@media screen and (max-width: 750px) {
+    /* стили для планшета */
+    .cover__title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .cover__title {
+        font-size: 2rem;
+    }
+}

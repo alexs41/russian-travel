@@ -1,0 +1,25 @@
+.nav-links__link {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    transition: opacity 1s;
+    margin-right: 18px;
+    line-height: 1;
+}
+.nav-links__link:hover {
+    opacity: .5;
+  }
+
+  @media screen and (max-width: 750px) {
+    /* стили для планшета */
+    .nav-links__link {
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 700px) {
+    /* стили для планшета */
+    .nav-links__link {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+}

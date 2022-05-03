@@ -1,0 +1,30 @@
+.place__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.06;
+    /* or 106% */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place__title {
+        font-size: 2.625rem;
+        
+    }
+}
+
+@media screen and (max-width: 627px) {
+    /* стили для планшета */
+    .place__title {
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .place__title {
+        font-size: 2rem;
+    }
+}

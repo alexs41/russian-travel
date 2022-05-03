@@ -1,0 +1,24 @@
+.place {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-template-rows: repeat(auto-fit, fit-content(290px));
+    margin: 0 auto;
+    padding: 80px 1em 0 1em;
+    row-gap: 40px;
+    column-gap: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .place {
+        padding: 73px 0 0 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .place {
+        padding-top: 50px;
+        row-gap: 32px;
+    }
+}

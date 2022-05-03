@@ -1,0 +1,8 @@
+.website__link {
+    color: white;
+    text-decoration: underline;
+    transition: opacity 1s;
+  }
+  .website__link:hover {
+    opacity: .5;
+  }

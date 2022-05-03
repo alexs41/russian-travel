@@ -1,0 +1,35 @@
+.lead__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    margin-top: 0;
+    width: 94%;
+}
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+    .lead__subtitle {
+        margin-bottom: 56px;
+
+    }
+}
+@media screen and (max-width: 750px) {
+    /* стили для планшета */
+    .lead__subtitle {
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* стили для широкого смартфона */
+    .lead__subtitle {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+.website {
+    align-self: end;
+}
+
+@media screen and (max-width: 627px) {
+    /* стили для планшета */
+    .website {
+        margin: 0 1rem;
+    }
+}

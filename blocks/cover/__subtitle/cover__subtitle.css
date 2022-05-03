@@ -1,0 +1,28 @@
+.cover__subtitle {
+    margin: 2rem auto 0 auto;
+    z-index: 2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.22;
+    /* or 122% */
+    text-align: center;
+    width: 50%;
+    
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .cover__subtitle {
+        width: 65%;
+        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .cover__subtitle {
+        font-size: .875rem;
+        width: 85%;
+    }
+}

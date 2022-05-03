@@ -1,0 +1,10 @@
+.place__paragraphs {
+    margin: 0;
+}
+
+@media screen and (max-width: 627px) {
+    /* стили для планшета */
+    .place__paragraphs {
+        margin: 0 1rem;
+    }
+}

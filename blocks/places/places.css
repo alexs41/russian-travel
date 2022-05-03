@@ -1,0 +1,24 @@
+.places {
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 46px;
+    max-width: 984px;
+    width: 90.6%;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 627px) {
+    /* стили для планшета */
+    .places {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* стили для планшета */
+    .places {
+        
+       
+    }
+}
