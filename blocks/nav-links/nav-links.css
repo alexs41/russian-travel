@@ -4,6 +4,7 @@
     flex-direction: row;
     padding: 0;
     margin-bottom: 24px;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 700px) {
@@ -16,6 +17,6 @@
 @media screen and (max-width: 425px) {
     /* стили для планшета */
     .nav-links {
-        
+        margin-bottom: 16px;
     }
 }

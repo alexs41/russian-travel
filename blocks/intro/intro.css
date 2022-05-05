@@ -1,6 +1,6 @@
 .intro {
     padding-top: 92px;
-    width: 90%;
+    width: 90.6%;
     max-width: 984px;
     margin: 0 auto;
 }
@@ -9,6 +9,7 @@
     /* стили для планшета */
     .intro {
         padding-top: 88px;
+        width: 93.75%;
     }
 }
 
@@ -16,5 +17,6 @@
     /* стили для планшета */
     .intro {
         padding-top: 64px;
+        width: 90.6%;
     }
 }

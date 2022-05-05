@@ -5,10 +5,3 @@
     max-height: 100%;
     object-fit: cover;
 }
-@media screen and (max-width: 425px) {
-    /* стили для планшета */
-    .place__image {
-        width: 100%;
-       
-    }
-}

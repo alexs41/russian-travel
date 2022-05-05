@@ -4,8 +4,8 @@
     font-size: 0.75rem;
     line-height: 1;
     /* identical to box height, or 100% */
-
     letter-spacing: 0.125rem;
-
     color: #AAAAAA;
+    margin-top: 0;
+    margin-bottom: .75rem;
 }

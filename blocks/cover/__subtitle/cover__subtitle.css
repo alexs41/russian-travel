@@ -24,5 +24,6 @@
     .cover__subtitle {
         font-size: .875rem;
         width: 85%;
+        margin-top: 1rem;
     }
 }

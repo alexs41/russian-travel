@@ -1,0 +1,22 @@
+.photo-with-caption__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 1.4;
+    letter-spacing: .09375rem;
+    text-transform: uppercase;
+    margin-top: 0.8em;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .photo-with-caption__caption {
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photo-with-caption__caption {
+        margin-left: 1.125rem;
+    }
+}
