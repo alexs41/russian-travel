@@ -1,7 +1,7 @@
 .photo-grid {
     box-sizing: inherit;
     max-width: 1184px;
-    /* width: 90.6%; */
+    width: 92.5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-template-rows: repeat(auto-fit, fit-content(300px));
@@ -10,10 +10,16 @@
     padding: 92px 0 0 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        width: 90.625%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* стили для планшета */
     .photo-grid {
-        margin: 0 24px;
+        width: 93.75%;
         padding-top: 88px;
     }
 }
@@ -21,7 +27,7 @@
 @media screen and (max-width: 425px) {
     .photo-grid {
         gap: 12px;
-        margin: 0 16px;
+        width: 90%;
         padding-top: 64px;
     }
 }
