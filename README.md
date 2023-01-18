@@ -24,5 +24,6 @@
 2. Открыть файл index.html
 
 [ссылка на проект Russian Travel](https://alexs41.github.io/russian-travel/index.html "Russian Travel"){target="_blank"}
+<a href="[http://example.com](https://alexs41.github.io/russian-travel/index.html)" target="_blank">ссылка на проект Russian Travel</a>
 
 © 2022. **Кайгородов Александр**
